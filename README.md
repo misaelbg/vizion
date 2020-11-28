@@ -10,10 +10,10 @@ Detection and Classification of objects in real time. Train your own neural netw
 
 **Object detection:** Images
 
-	vizion image --detect cars --model default
+	vizion image --detect cars --image test.jpg --model default
 
 This will download 10 cat images and metadata from Google Images.
 
 **Object detection:** Video
 
-	vizion video --detect cars --model default
+	vizion video --detect cars --video test.mp4 --model default
